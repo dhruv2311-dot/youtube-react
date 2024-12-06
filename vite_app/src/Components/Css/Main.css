@@ -2,13 +2,13 @@
     background-color: rgb(24, 24, 24);
     height: 50px;
     border-bottom:1px solid red ;
-    width:1366px;
+    width:100vw;
 }
 .search{
     margin: 15px 515px;
     width: 350px;
     height: 20px;
-    background-color: gray;
+    background-color: white;
     color: black;
 }
 .icon{
@@ -21,7 +21,7 @@
     
   width: 24px;
   height: 24px;  
-  margin: 15px 66%;
+  margin: 1% 0 0 60%;
  
 }
 .options{
@@ -36,10 +36,35 @@
 .related{
     display: flex;
     overflow-x: 0;
-    padding: 10px 10px;
-    margin: 3% 20%;
+    padding: 10px 40px;
+    margin: 2.3% 0 0 10%;
+    border-bottom: 1px solid gray;
+    background-color: #181818;
+    border-top: 1px solid gray;
+   
 
 }
 .related button{
-    
+    padding: 7px 10px;
+    margin: 0px 20px;
+    border-radius: 40px;
+}
+.related button:hover{
+    background-color: bisque;
+}
+.main2{
+   display: grid;
+   grid-template-columns: 22% 22% 22% 22%;
+   width: calc(100vw - 170px);
+   margin-left:270px ;
+   background-color: #181818;
+   margin-top: 40px;
+   
+}
+.information{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 90%;
+    width:80%;
 }
