@@ -1,0 +1,51 @@
+body{color: white;
+margin: 0px;
+padding:0px ;}
+.left{
+    display: flex;
+}
+
+.images{
+    display: flex;
+    margin-top: -10px;
+    text-align: center;
+    align-items: center;
+}
+
+.images > img{
+    width: 23px;
+    height: 23px;
+}
+
+.Navigator1{
+   
+    border-bottom: 1px solid white;
+}
+
+h5{
+    margin-top: 10px;
+}
+
+.text{
+    font-size: 85%;
+}
+.navigator3{
+    margin-top: -10px;
+}
+.hr{
+    border: none;
+    height: 1px;
+    background-color: white;
+}
+.sidebar{
+   width: 150px;
+   background-color: rgb(33, 33, 33);
+   padding-top: 20px;
+   position: fixed;
+   padding-left:10px ;
+
+}
+.navi2{
+    margin-top: 10px;
+    border-bottom: 1px solid white;
+}

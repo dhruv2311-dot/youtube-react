@@ -1,0 +1,45 @@
+.navbar{
+    background-color: rgb(24, 24, 24);
+    height: 50px;
+    border-bottom:1px solid red ;
+    width:1366px;
+}
+.search{
+    margin: 15px 515px;
+    width: 350px;
+    height: 20px;
+    background-color: gray;
+    color: black;
+}
+.icon{
+    background-color: gray;
+    width: 24px;
+    height: 24px;
+    margin: -39px 875px
+}
+.mic{
+    
+  width: 24px;
+  height: 24px;  
+  margin: 15px 66%;
+ 
+}
+.options{
+    
+    width: 100px;
+    margin: -36px 82%;
+    
+    display: flex;
+    padding: 0px 20px;
+}
+
+.related{
+    display: flex;
+    overflow-x: 0;
+    padding: 10px 10px;
+    margin: 3% 20%;
+
+}
+.related button{
+    
+}
